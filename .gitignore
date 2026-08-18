@@ -4,3 +4,7 @@ __pycache__/
 langgraph/*
 !langgraph/*.ipynb
 !langgraph/.gitignore
+!langgraph/chatbots/
+langgraph/chatbots/*.db
+langgraph/chatbots/*.db-shm
+langgraph/chatbots/*.db-wal
