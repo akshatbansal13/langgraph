@@ -88,7 +88,7 @@ if user_input:
             "thread_id": st.session_state["thread_id"]
         },
         "run_name": "chat_turn",
-    }
+    }#this is for observability(langsmith)
 
     # first add the message to message_history
     with st.chat_message('assistant'):
