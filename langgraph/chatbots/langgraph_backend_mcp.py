@@ -107,7 +107,7 @@ async def chat_node(state: ChatState):
 
 tool_node = ToolNode(tools) if tools else None
 
-# ---------- Async Checkpointer ----------
+# ---------- Async Checkpointer ------
 async def _init_checkpointer():
     conn = await aiosqlite.connect(database="chatbot.db")
     return AsyncSqliteSaver(conn)
